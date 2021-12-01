@@ -447,51 +447,52 @@
                 <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg>
         </button>
-        <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
-        <form action="" class="form">
-                <label class="form-field">
+        <p class="modal-form-text">Оставьте свои данные, мы вам перезвоним</p>
+        <form action="#" class="modal-form">
+                <label class="modal-form-field">
                     Имя
-                    <span class="form-wrapper">
-                        <input type="text" name="name" class="form-input">
-                            <svg class="form-icon">
+                    <span class="modal-form-wrapper">
+                        <input type="text" name="name" required class="modal-form-input">
+                            <svg class="modal-form-icon">
                                 <use href="./images/symbol-defs.svg#icon-person"></use>
                             </svg>
                     </span>
                 </label>
-                <label class="form-field">
+                <label class="modal-form-field">
                     Телефон
-                    <span class="form-wrapper">
-                        <input type="tel" name="tel" class="form-input">  
-                            <svg class="form-icon">
+                    <span class="modal-form-wrapper">
+                        <input type="tel" name="tel" required class="modal-form-input">  
+                            <svg class="modal-form-icon">
                                 <use href="./images/symbol-defs.svg#icon-phone-2"></use>
                             </svg>
                     </span>
                 </label>
-                <label class="form-field">
+                <label class="modal-form-field">
                     Почта
-                    <span class="form-wrapper" >
-                        <input type="email" name="mail" class="form-input">
-                            <svg class="form-icon"> 
+                    <span class="modal-form-wrapper" >
+                        <input type="email" name="mail" required class="modal-form-input">
+                            <svg class="modal-form-icon"> 
                                 <use href="./images/symbol-defs.svg#icon-mail-2"></use>
                             </svg>
                     </span>
                 </label>
-                <label for="feedback" class="form-field">
+                <label for="feedback" class="modal-form-field">
                     Комментарий
-                    <textarea class="form-textarea" name="feedback" rows="5" placeholder="Введите текст"></textarea>
+                    <textarea class="modal-form-textarea" name="feedback" placeholder="Введите текст"></textarea>
                 </label>
                 
-                <label for="checkbox" class="form-field form-label-checkbox">
+                <label for="checkbox" class="modal-form-field modal-form-label-checkbox">
                     <input type="checkbox" name="" value="checkbox" id="" class="form-checkbox visually-hidden">
-                    <svg class="form-checkbox-icon"> 
-                        <use href="./images/symbol-defs.svg#icon-chekbox"></use>
+                    
+                    <svg class="modal-form-checkbox-icon"> 
+                        <use href="./images/symbol-defs.svg#icon-check"></use>
                     </svg>
-                   <span class="form-checkbox-text">
-                        Соглашаюсь с рассылкой и принимаю <a href="#" class="form-checkbox-link">Условия договора</a>
+                   <span class="modal-form-checkbox-text">
+                        Соглашаюсь с рассылкой и принимаю <a href="#" class="modal-form-checkbox-link">Условия договора</a>
                    </span>
                 </label>
 
-            <button type="submit" class="form-btn-submit ">Отправить</button>
+            <button type="submit" class="modal-form-btn-submit ">Отправить</button>
         </form>
     </div>
 </div>
