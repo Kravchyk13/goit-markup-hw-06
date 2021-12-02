@@ -560,6 +560,7 @@ img {
 
 .footer-box:not(:last-child) {
     margin-right: 70px;
+    flex-grow: 1;
 }
 
 .footer-social-list {
@@ -887,6 +888,8 @@ textarea {
 }
 
 .modal-form-field {
+    margin: 0 0 10px 0;
+
     position: relative;
     display: block;
 
@@ -897,15 +900,19 @@ textarea {
     color: #757575;
 }
 
+.modal-form-field:last-of-type(2) {
+    margin: 0 0 20px 0;
+}
+
 .modal-form-wrapper {
+    margin: 4px 0 0 0;
+
     position: relative;
     display: block;
 }
 
 .modal-form-input,
 .modal-form-textarea {
-   margin: 4px 0 10px 0; 
-
    display: block;
    width: 100%;
    height: 40px;
@@ -929,12 +936,10 @@ textarea {
     left: 12px;
 
     display: inline-block;
-
-    /*fill: currentColor;*/
-    color: var(--primary-second-text-color);
     width: 18px;
     height: 18px;
-
+    /*fill: currentColor;*/
+    color: var(--primary-second-text-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-input:focus ~ .modal-form-icon {
@@ -948,7 +953,6 @@ textarea {
 }
 
 .modal-form-textarea {
-    margin-bottom: 20px;
     padding: 16px 12px;
     height: 120px;
     resize: none;
